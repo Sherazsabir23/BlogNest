@@ -20,7 +20,7 @@ function AdminUsers() {
   useEffect(() => {
         const checkAdmin = async () => {
           try {
-            const response = await auth.adminChecker();
+            const response = await apiAuth.adminChecker();
             if (response.success) {
               toast.success("Admin Verified");
             } else {

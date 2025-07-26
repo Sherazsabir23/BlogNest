@@ -3,6 +3,7 @@ import commentApi from "../../api/comment";
 import posts from "../../api/posts";
 import { toast } from "react-toastify";
 import {useNavigate} from "react-router-dom"
+import auth from "../../api/auth"
 
 function Comments() {
   const [postsList, setPostsList] = useState([]);
