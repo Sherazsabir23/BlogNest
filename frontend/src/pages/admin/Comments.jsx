@@ -110,7 +110,7 @@ function Comments() {
       </div>
       <div className="overflow-x-auto">
         <table className="border min-w-full table-fixed border-collapse mt-5 text-center">
-          <thead>
+          <thead className="bg-slate-900 text-white">
             <tr>
               <th className="border p-2">#</th>
               <th className="border p-2 md:table-cell hidden">Comment</th>

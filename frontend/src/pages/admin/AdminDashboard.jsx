@@ -73,7 +73,7 @@ if(response.success){
       </div>
        <div className="flex justify-center w-full mt-4 pt-5">
              <select
-  className="border w-full max-w-md px-5 py-5 outline-none bg-slate-800 text-white rounded-lg "
+  className="border w-full max-w-md px-5 py-3 outline-none bg-slate-800 text-white rounded-lg "
   value={range}
   onChange={handleChange}
 > 

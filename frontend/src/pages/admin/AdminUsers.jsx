@@ -80,9 +80,9 @@ function AdminUsers() {
       />
 
       <div className="overflow-x-auto">
-      <table className="w-full border-collapse border text-center border-gray-300">
+      <table className="w-full border-collapse border border-gray-100 text-center ">
         <thead>
-          <tr className="bg-gray-100">
+          <tr className="bg-slate-900 text-white">
             <th className="border p-2">No.</th>
             <th className="border p-2">Name</th>
             <th className="border p-2">Email</th>

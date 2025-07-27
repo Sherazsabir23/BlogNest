@@ -94,7 +94,7 @@ function AdminPosts() {
 
       <div className="overflow-x-auto">
         <table className="w-full text-center border-collapse border border-gray-300 text-sm sm:text-base">
-          <thead className="bg-gray-100">
+          <thead className="bg-slate-900 text-white">
             <tr>
               <th className="p-2 border">Sr#</th>
               <th className="p-2 border hidden lg:table-cell">Post Title</th>
